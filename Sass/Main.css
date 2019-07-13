@@ -1,0 +1,98 @@
+.header {
+  height: 50px;
+  margin: 0 15%; }
+  @media only screen and (max-width: 1485px) {
+    .header {
+      margin: 0 10%; } }
+
+#firstHR {
+  width: 70%; }
+  @media only screen and (max-width: 1485px) {
+    #firstHR {
+      width: 80%; } }
+
+.toplogo {
+  height: 50px; }
+
+.trigram {
+  display: inline; }
+  .trigram a {
+    font-weight: bold;
+    margin: 0 10px;
+    color: #7EB830; }
+    .trigram a:hover {
+      color: #028048; }
+    @media only screen and (min-width: 1111.1111px) {
+      .trigram a {
+        display: none; } }
+
+.navi {
+  float: right;
+  margin: 15px 5px; }
+  .navi a {
+    font-weight: bold;
+    color: #7EB830; }
+    .navi a:hover {
+      color: #028048; }
+
+.navbar {
+  display: inline; }
+  .navbar ul.navUL {
+    display: inline; }
+    .navbar ul.navUL li {
+      list-style: none;
+      float: right;
+      margin: 10px 0; }
+      .navbar ul.navUL li a {
+        font-weight: bold;
+        text-decoration: none;
+        font-family: "B Badr", "B Nazanin";
+        color: #7EB830;
+        margin: 25px 20px; }
+        .navbar ul.navUL li a:hover {
+          color: #028048; }
+        @media only screen and (max-width: 1485px) {
+          .navbar ul.navUL li a {
+            margin: 25px 8px; } }
+        @media only screen and (max-width: 1111.1111px) {
+          .navbar ul.navUL li a {
+            display: none; } }
+
+.sidenav {
+  height: 100%;
+  font-family: "B Badr", "B Nazanin";
+  float: right;
+  text-align: right;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #ddd;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5px; }
+  .sidenav a.closebtn {
+    text-align: left; }
+  .sidenav a {
+    padding: 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #7EB830;
+    display: block;
+    transition: 0.3s; }
+    .sidenav a:hover {
+      color: #028048; }
+
+.navHR {
+  width: 80%;
+  margin: 0 10%;
+  color: #eee; }
+
+body {
+  background-color: #eee; }
+
+* {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=Main.css.map */

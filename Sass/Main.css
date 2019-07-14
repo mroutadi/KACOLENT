@@ -1,13 +1,13 @@
 .header {
   height: 50px;
   margin: 0 15%; }
-  @media only screen and (max-width: 1485px) {
+  @media only screen and (max-width: 1500px) {
     .header {
       margin: 0 10%; } }
 
 #firstHR {
   width: 70%; }
-  @media only screen and (max-width: 1485px) {
+  @media only screen and (max-width: 1500px) {
     #firstHR {
       width: 80%; } }
 
@@ -51,7 +51,7 @@
         margin: 25px 20px; }
         .navbar ul.navUL li a:hover {
           color: #028048; }
-        @media only screen and (max-width: 1485px) {
+        @media only screen and (max-width: 1500px) {
           .navbar ul.navUL li a {
             margin: 25px 8px; } }
         @media only screen and (max-width: 1111.1111px) {
@@ -88,6 +88,95 @@
   width: 80%;
   margin: 0 10%;
   color: #eee; }
+
+.groups {
+  display: flex;
+  justify-content: center;
+  flex: 0 1 auto;
+  margin: 20px 0;
+  flex-wrap: nowrap; }
+  .groups .groupsPRT {
+    max-width: 170px;
+    text-align: center;
+    flex-grow: 1;
+    padding: 0 10px; }
+    @media (max-width: 1111px) {
+      .groups .groupsPRT {
+        margin: 0; } }
+    @media (max-width: 600px) {
+      .groups .groupsPRT {
+        padding: 0 5px; } }
+    .groups .groupsPRT .groupsIMG img {
+      vertical-align: middle;
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      border-radius: 100px;
+      border: 2px solid #7EB830;
+      box-shadow: 0 0 15px gray; }
+      @media (max-width: 1111.1111px) {
+        .groups .groupsPRT .groupsIMG img {
+          height: 100px;
+          width: 100px; } }
+      @media (max-width: 600.1111px) {
+        .groups .groupsPRT .groupsIMG img {
+          height: 75px;
+          width: 75px; } }
+    .groups .groupsPRT .groupsTLT {
+      text-align: center;
+      padding: 0;
+      margin: 15px;
+      position: relative;
+      text-transform: capitalize;
+      min-height: 50px;
+      border: none;
+      display: inline-block;
+      color: #7EB830;
+      text-decoration: none;
+      font-family: "B Badr", "B Nazanin";
+      font-size: 20px;
+      font-weight: bold; }
+      @media (max-width: 600px) {
+        .groups .groupsPRT .groupsTLT {
+          margin: 5px; } }
+
+footer {
+  display: flex;
+  flex: 4;
+  background-color: #ddd; }
+
+h3 {
+  color: #028048;
+  font-family: "B Badr", "B Nazanin"; }
+
+ul li {
+  list-style: none; }
+  ul li a {
+    text-decoration: none;
+    color: #7EB830;
+    font-family: "B Badr", "B Nazanin"; }
+
+.footerLOGO {
+  flex: 1;
+  text-align: right; }
+  .footerLOGO img {
+    height: 50px; }
+
+.AboutUS {
+  flex: 1;
+  text-align: right; }
+
+.Customer {
+  flex: 1;
+  text-align: right; }
+
+.Connect {
+  flex: 1;
+  text-align: right; }
+
+.Right {
+  display: block;
+  font-family: Work Sans, sans-serif; }
 
 body {
   background-color: #eee; }

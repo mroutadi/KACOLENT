@@ -3,13 +3,13 @@ Error: Undefined variable: "$Gray".
         on line 3 of C:\Users\MrOutadi\Desktop\KACOLENT\Sass\Modules\_Footer.sass
 
 1: .footerBG
-2:   width: 100vw
+2:   width: 100%
 3:   background-color: $Gray
-4:   position: absolute
-5:   padding: 0
-6:   padding-top: 25px
-7:   margin: 0
-8:   bottom: 30px
+4:   padding: 0
+5:   padding-top: 25px
+6:   margin: 0
+7:   bottom: 30px
+8:   border-top: 1px solid $hr
 
 Backtrace:
 C:\Users\MrOutadi\Desktop\KACOLENT\Sass\Modules\_Footer.sass:3
@@ -59,4 +59,4 @@ D:/1App/Ruby25-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$Gray\".\A         on line 3 of C:\Users\MrOutadi\Desktop\KACOLENT\Sass\Modules\_Footer.sass\A \A 1: .footerBG\A 2:   width: 100vw\A 3:   background-color: $Gray\A 4:   position: absolute\A 5:   padding: 0\A 6:   padding-top: 25px\A 7:   margin: 0\A 8:   bottom: 30px"; }
+  content: "Error: Undefined variable: \"$Gray\".\A         on line 3 of C:\Users\MrOutadi\Desktop\KACOLENT\Sass\Modules\_Footer.sass\A \A 1: .footerBG\A 2:   width: 100%\A 3:   background-color: $Gray\A 4:   padding: 0\A 5:   padding-top: 25px\A 6:   margin: 0\A 7:   bottom: 30px\A 8:   border-top: 1px solid $hr"; }

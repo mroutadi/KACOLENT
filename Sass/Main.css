@@ -6,6 +6,7 @@
       margin: 0 10%; } }
 
 #firstHR {
+  color: #777777;
   width: 70%; }
   @media only screen and (max-width: 1500px) {
     #firstHR {
@@ -18,7 +19,7 @@
   display: inline; }
   .trigram a {
     font-weight: bold;
-    margin: 0 10px;
+    margin: 0 0 0 20px;
     color: #7EB830; }
     .trigram a:hover {
       color: #028048; }
@@ -68,7 +69,7 @@
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #ddd;
+  background-color: #DDDDDD;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 5px; }
@@ -87,7 +88,7 @@
 .navHR {
   width: 80%;
   margin: 0 10%;
-  color: #eee; }
+  color: #EEEEEE; }
 
 .groups {
   display: flex;
@@ -130,6 +131,7 @@
       text-transform: capitalize;
       min-height: 50px;
       border: none;
+      text-shadow: 0 0 3px #AAAAAA;
       display: inline-block;
       color: #7EB830;
       text-decoration: none;
@@ -140,46 +142,215 @@
         .groups .groupsPRT .groupsTLT {
           margin: 5px; } }
 
+.footerBG {
+  width: 100vw;
+  background-color: #DDDDDD;
+  position: absolute;
+  padding: 0;
+  padding-top: 25px;
+  margin: 0;
+  bottom: 30px;
+  border-top: 1px solid #777777; }
+
 footer {
+  width: 70%;
+  height: 300px;
+  margin: 0 15%;
   display: flex;
   flex: 4;
-  background-color: #ddd; }
+  background-color: #DDDDDD; }
+  @media only screen and (max-width: 933.339px) {
+    footer {
+      height: 330px; } }
+  @media only screen and (max-width: 852.258px) {
+    footer {
+      flex: 3; } }
+  @media only screen and (max-width: 650.056px) {
+    footer {
+      width: 100vw;
+      margin: 0; } }
 
-h3 {
+h3.FTRH3 {
   color: #028048;
+  font-family: "B Badr", "B Nazanin";
+  text-align: center;
+  margin: 0;
+  padding: 2px 0; }
+
+h3.FTRH3-bg {
+  display: inline;
+  color: #028048;
+  font-family: "B Badr", "B Nazanin";
+  text-align: center;
+  margin: 0;
+  padding: 2px 0; }
+  @media only screen and (max-width: 1019.9101px) {
+    h3.FTRH3-bg {
+      display: none; } }
+
+h3.FTRH3-sm {
+  display: none;
+  color: #028048;
+  font-family: "B Badr", "B Nazanin";
+  text-align: center;
+  margin: 0;
+  padding: 2px 0; }
+  @media only screen and (max-width: 1019.9101px) {
+    h3.FTRH3-sm {
+      display: inline; } }
+
+h5.FTRH5 {
+  margin: 0;
+  padding: 10px 0;
   font-family: "B Badr", "B Nazanin"; }
 
-ul li {
-  list-style: none; }
-  ul li a {
-    text-decoration: none;
-    color: #7EB830;
-    font-family: "B Badr", "B Nazanin"; }
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style: none; }
+    ul li a {
+      text-decoration: none;
+      color: #7EB830;
+      font-family: "B Badr", "B Nazanin"; }
+      ul li a:hover {
+        color: #028048;
+        text-shadow: 0 0 1px #000000;
+        transition: 0.3s; }
 
-.footerLOGO {
+div.footerLOGO {
   flex: 1;
-  text-align: right; }
-  .footerLOGO img {
+  text-align: center;
+  margin-top: 70px; }
+  @media only screen and (max-width: 852.258px) {
+    div.footerLOGO {
+      display: none; } }
+  div.footerLOGO a img {
     height: 50px; }
+    div.footerLOGO a img:hover {
+      height: 75px;
+      transition: 1s; }
 
 .AboutUS {
   flex: 1;
-  text-align: right; }
+  text-align: center; }
 
 .Customer {
   flex: 1;
-  text-align: right; }
+  text-align: center; }
 
 .Connect {
-  flex: 1;
-  text-align: right; }
+  flex: 2;
+  text-align: center; }
+
+.SocialNTWIcon {
+  padding: 5px 5px; }
+
+.telegram a {
+  color: #0088CC; }
+
+.instagram a {
+  color: #FD1D1D; }
+
+.Contact {
+  text-align: center; }
+
+.Offer .Offers button {
+  border: 2px solid #028048;
+  border-radius: 8px;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "B Badr", "B Nazanin";
+  color: #FFFFFF;
+  background-color: #7EB830; }
+  @media only screen and (max-width: 1251.1521px) {
+    .Offer .Offers button {
+      width: 60px; } }
+.Offer .Offers input {
+  border: 2px solid #028048;
+  border-radius: 8px;
+  width: 265px;
+  height: 40px; }
+  @media only screen and (max-width: 1177.7711px) {
+    .Offer .Offers input {
+      width: 190px; } }
+  @media only screen and (max-width: 966.669px) {
+    .Offer .Offers input {
+      width: 160px; } }
+
+h3.Number {
+  font-family: "B Badr", "B Nazanin";
+  color: #333333;
+  display: inline; }
+  @media only screen and (max-width: 933.339px) {
+    h3.Number {
+      display: none; } }
+
+h3.Number-sm {
+  font-family: "B Badr", "B Nazanin";
+  color: #333333;
+  display: none; }
+  @media only screen and (max-width: 933.339px) {
+    h3.Number-sm {
+      display: inline; } }
+
+.fa-phone-alt {
+  color: #028048;
+  margin-right: 5px; }
+
+h3.Email {
+  font-family: "sans-serif";
+  color: #333333;
+  display: inline; }
+  @media only screen and (max-width: 1630.0361px) {
+    h3.Email {
+      display: none; } }
+
+h3.Email-sm {
+  display: inline;
+  font-family: "B Badr", "B Nazanin"; }
+  h3.Email-sm a {
+    font-family: "sans-serif";
+    color: #333333;
+    display: none;
+    text-decoration: none;
+    margin-left: 12px; }
+    @media only screen and (max-width: 1630.0361px) {
+      h3.Email-sm a {
+        display: inline; } }
+
+.fa-envelope {
+  color: #CC00CC; }
+  @media only screen and (max-width: 1630.0361px) {
+    .fa-envelope {
+      margin-right: 0; } }
+
+input[type="email"]::placeholder {
+  text-align: center;
+  font-family: "B Badr", "B Nazanin"; }
 
 .Right {
-  display: block;
-  font-family: Work Sans, sans-serif; }
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 10px;
+  font-weight: lighter;
+  display: inline;
+  font-family: Work Sans, sans-serif;
+  color: #AAAAAA;
+  background-color: #DDDDDD;
+  border-top: 1px solid #777777; }
 
 body {
-  background-color: #eee; }
+  background-color: #EEEEEE;
+  padding: 0;
+  margin: 0; }
 
 * {
   box-sizing: border-box; }

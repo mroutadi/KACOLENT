@@ -8,6 +8,8 @@ Error: Undefined variable: "$hr".
 4: @import "Footer"
 5: @import "ProductView"
 6: @import "DealOfDay"
+7: @import "Welcome"
+8: @import "Category"
 
 Backtrace:
 C:\Users\MrOutadi\Desktop\KACOLENT\Sass\Modules\_Header.sass:7
@@ -71,4 +73,4 @@ D:/1App/Ruby25-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$hr\".\A         on line 7 of C:\Users\MrOutadi\Desktop\KACOLENT\Sass\Modules\_Header.sass\A         from line 1 of C:\Users\MrOutadi\Desktop\KACOLENT\Sass\Modules\_MainModule.sass\A \A 2: @import \"NavBar\"\A 3: @import \"MainIndex\"\A 4: @import \"Footer\"\A 5: @import \"ProductView\"\A 6: @import \"DealOfDay\""; }
+  content: "Error: Undefined variable: \"$hr\".\A         on line 7 of C:\Users\MrOutadi\Desktop\KACOLENT\Sass\Modules\_Header.sass\A         from line 1 of C:\Users\MrOutadi\Desktop\KACOLENT\Sass\Modules\_MainModule.sass\A \A 2: @import \"NavBar\"\A 3: @import \"MainIndex\"\A 4: @import \"Footer\"\A 5: @import \"ProductView\"\A 6: @import \"DealOfDay\"\A 7: @import \"Welcome\"\A 8: @import \"Category\""; }

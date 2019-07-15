@@ -107,6 +107,9 @@
     @media (max-width: 600px) {
       .groups .groupsPRT {
         padding: 0 5px; } }
+    .groups .groupsPRT:hover {
+      transform: scale(1.1);
+      transition: 0.5s; }
     .groups .groupsPRT .groupsIMG img {
       vertical-align: middle;
       width: 150px;
@@ -348,6 +351,7 @@ input[type="email"]::placeholder {
 a.ProductViewA {
   text-decoration: none; }
   a.ProductViewA div.ProductView {
+    font-family: "B Badr", "B Nazanin";
     display: inline-block;
     width: 220px;
     height: 320px;
@@ -378,12 +382,13 @@ a.ProductViewA {
       top: 10px;
       left: 20px;
       background-color: white;
-      padding: 14px 10px 10px 6px;
+      padding: 10px;
       color: red;
       font-weight: bold;
       font-family: sans-serif;
       border-radius: 50%;
-      border: 0.5px solid red; }
+      border: 0.5px solid red;
+      font-family: "B Badr", "B Nazanin"; }
     a.ProductViewA div.ProductView div.ProductViewName {
       font-family: "B Badr", "B Nazanin";
       overflow: hidden;
@@ -412,13 +417,118 @@ a.ProductViewA {
 
 div.DealOfDay {
   text-align: center;
+  height: 330px;
+  overflow-y: hidden;
   width: 80%;
-  margin: 0px 10%; }
-  div.DealOfDay h3 {
+  margin: 10px 10%;
+  border: 1px solid #DDDDDD;
+  margin-bottom: 10px; }
+
+h3.Topics {
+  font-family: "B Badr", "B Nazanin";
+  color: #028048;
+  font-size: 1.835rem;
+  margin: 0;
+  text-align: right;
+  margin-right: 15%; }
+  h3.Topics:hover {
+    color: #7EB830;
+    transition: 0.5s; }
+
+div.Welcome {
+  text-align: center;
+  vertical-align: middle;
+  color: #7EB830;
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: "B Badr", "B Nazanin";
+  height: 180px;
+  margin: -10px 0 -40px 0; }
+  @media screen and (max-width: 1051.1501px) {
+    div.Welcome {
+      font-size: 4rem; } }
+  @media screen and (max-width: 1051.1501px) and (max-width: 851.158px) {
+    div.Welcome {
+      font-size: 3.5rem; } }
+
+  @media screen and (max-width: 729.927px) {
+    div.Welcome {
+      font-size: 3rem; } }
+  div.Welcome h3 {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: "B Badr", "B Nazanin"; }
+  div.Welcome h1 {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    font-weight: bold;
     font-family: "B Badr", "B Nazanin";
-    color: #028048;
-    font-size: 1.635rem;
-    margin: 0; }
+    font-size: inherit; }
+
+h3.CatH3 {
+  text-align: center;
+  font-family: "B Badr", "B Nazanin";
+  color: #028048;
+  font-size: 48px;
+  padding: 15px;
+  margin: 0; }
+
+div.CatBox {
+  margin: 20px 10%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  height: 280px; }
+  div.CatBox:hover {
+    box-shadow: 0 0 5px #028048;
+    transition: 0.5s; }
+    div.CatBox:hover div.CatBoxImg img {
+      transform: scale(1.1);
+      transition: 0.5s; }
+    div.CatBox:hover div.CatBoxMen div.CatBoxMenName {
+      text-shadow: 0 0 2px #028048;
+      transition: 0.5s; }
+    div.CatBox:hover div.CatBoxMen div.CatBoxMenText {
+      text-shadow: 0 0 0.3px #028048;
+      transition: 0.5s; }
+  div.CatBox a {
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    text-align: right; }
+    div.CatBox a div.CatBoxImg {
+      flex: 1;
+      height: 250px;
+      width: 250px; }
+      div.CatBox a div.CatBoxImg img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px; }
+    div.CatBox a div.CatBoxMen {
+      flex: 5;
+      overflow: hidden; }
+      div.CatBox a div.CatBoxMen div.CatBoxMenName {
+        font-family: "B Badr", "B Nazanin";
+        color: #028048;
+        font-size: 36px;
+        font-weight: bold;
+        margin: 0 3%; }
+      div.CatBox a div.CatBoxMen div.CatBoxMenText {
+        font-family: "B Badr", "B Nazanin";
+        color: #7EB830;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: right;
+        width: 90%;
+        margin: 0 5%; }
 
 body {
   background-color: #EEEEEE;

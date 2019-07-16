@@ -1,0 +1,95 @@
+div.SLDcontainer
+  position: relative
+  width: 100%
+  div.SLDmySlides
+    display: none
+    width: 100%
+  div.SLDmySlides1
+    display: block
+
+  a.prev
+    cursor: pointer
+    position: absolute
+    top: 45%
+    width: auto
+    padding: 16px
+    margin-top: -50px
+    color: $Green
+    text-shadow: 0 0 2px $DGreen
+    font-weight: bold
+    font-size: 20px
+    border-radius: 0 3px 3px 0
+    user-select: none
+    -webkit-user-select: none
+    &:hover
+      background-color: $DGreen
+  a.next
+    cursor: pointer
+    position: absolute
+    top: 45%
+    width: auto
+    padding: 16px
+    margin-top: -50px
+    color: $Green
+    text-shadow: 0 0 2px $DGreen
+    font-weight: bold
+    font-size: 20px
+    border-radius: 0 3px 3px 0
+    user-select: none
+    -webkit-user-select: none
+    right: 0
+    border-radius: 3px 0 0 3px
+    &:hover
+      background-color: $DGreen
+
+  div.SLDrow
+    &:after
+      content: ""
+      display: table
+      clear: both
+    div.SLDcolumn
+      float: left
+      width: 16.66%
+      .cursor
+        cursor: pointer
+      .demo
+        opacity: 0.6
+        &:hover
+        opacity: 1
+.active
+  opacity: 1
+
+div.Product
+  width: 70%
+  padding: 10px
+  margin: 0 15%
+  display: flex
+  div.ImgPrice
+    flex: 1
+    padding: 0 0 0 5px
+    div.PRDCImgView
+      width: 100%
+    div.PRDCPrice
+      div.PRDCPriceF
+        font-family: $fa
+      div.PRDCPriceLast
+        font-family: $fa
+      div.PRDCPriceLastP
+        font-family: $fa
+      div.PRDCPricePrcnt
+        font-family: $fa
+  div.Info
+    flex: 2
+    text-align: right
+    div.PRDCName
+      font-family: $fa
+      font-size: 3vw
+      color: $Green
+    div.PRDCCat
+      font-family: $fa
+    div.PRDCSeller
+      font-family: $fa
+    div.PRDCCT
+      font-family: $fa
+    div.PRDCAvbleCT
+      font-family: $fa
